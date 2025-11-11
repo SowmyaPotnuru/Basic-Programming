@@ -16,3 +16,14 @@ function checkIsPrime(num){
 
 checkIsPrime(4)
 checkIsPrime(31)
+
+function evenOdd(num){
+  if(num%2 == 0){
+    console.log(true)
+  }else{
+    console.log(false)
+  }
+}
+
+evenOdd(7)
+evenOdd(24)
